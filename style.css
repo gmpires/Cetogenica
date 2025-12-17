@@ -4,6 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Contato Section */
+.contato-section {
+    padding: 100px 0;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 
 :root {
   --primary-color: #2E7D32; /* Fresh Green */
