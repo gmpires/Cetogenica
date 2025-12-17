@@ -648,3 +648,33 @@ img {
     grid-template-columns: 1fr;
   }
 }
+/* Responsividade para telas menores */
+@media (max-width: 470px) {
+    .bonus-boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .bonus-box {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .bonus-icon {
+        margin-bottom: 5px;
+    }
+
+    .bonus-box h4 {
+        font-size: 0.8rem;
+    }
+
+    .bonus-box p {
+        font-size: 0.7rem;
+    }
+
+    .bonus-icon i {
+        width: 20px;
+        height: 20px;
+    }
+}
