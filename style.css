@@ -677,4 +677,8 @@ img {
         width: 20px;
         height: 20px;
     }
+  .contact-info p {
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
 }
